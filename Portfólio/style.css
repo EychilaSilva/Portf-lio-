@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background: linear-gradient(62deg, rgba(123, 97, 191, 0.87), rgba(57, 45, 89, 0.87));
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    padding: 0px;
+    color: rgba(57, 45, 89, 0.87);
+}
+img {
+    border-radius: 125px;
+    width: 200px; 
+    height: 200px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: rgba(57, 45, 89, 0.87);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: rgba(123, 97, 191, 0.87);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(57, 45, 89, 0.87);
+}
+
+.section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: rgba(120, 97, 191, 0.87);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+footer {
+
+    line-height: 50px;
+        padding: 1px;
+        
+}
+ .image {
+   width: 550px; 
+   height: 300px;
+   border-radius: 4px;
+}
+
+.color {
+    color: rgba(82, 52, 165, 0.87);
+}
+
